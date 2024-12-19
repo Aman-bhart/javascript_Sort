@@ -1,5 +1,7 @@
 const PS1 = "fakeShell %";
 
+let pwd = PS1;
+
 const doEcho = function (argument) {
   return argument.join(" ");
 };
